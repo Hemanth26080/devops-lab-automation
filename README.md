@@ -15,47 +15,6 @@ All servers are automatically set up when you run `vagrant up`. No manual steps 
 
 ## 🏗️ Architecture Overview
 
-profile
-Qwen3-235B-A22B-2507
-9:26 pm
-Here is the complete README.md content in plain text format. You can copy and paste it directly into a file named README.md:
-
-
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-# 🚀 Project 1: DevOps Lab Automation with Vagrant & Python
-
-## *"Automated 3-Tier Infrastructure Using Python Instead of Bash"*
-
-I built a **fully automated DevOps lab** using **Vagrant**, **VirtualBox**, and **Python** for provisioning — replacing traditional Bash scripts with clean, readable, and maintainable Python code.
-
-This simulates a real-world **3-tier architecture**:
-- 🌐 **Web Server**: Apache (provisioned via Python)
-- 💾 **Database Server**: MySQL (configured by Python)
-- 📊 **Monitoring Server**: Ready for Prometheus (prepared using Python)
-
-All servers are automatically set up when you run `vagrant up`. No manual steps needed!
-
----
-
-## 🏗️ Architecture Overview
-
 +------------------+ +------------------+ +---------------------+
 | Web Server | | DB Server | | Monitor Server |
 | 192.168.56.10 |<----->| 192.168.56.11 | | 192.168.56.12 |
